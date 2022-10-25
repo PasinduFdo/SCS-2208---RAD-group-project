@@ -1,0 +1,40 @@
+div.mb-4.login:nth-child(1) {
+    display: block;
+}
+
+/*.card-body.login {*/
+/*    padding-top: 11rem!important;*/
+/*}*/
+
+.form-error-label.username {
+    left: -4.2em;;
+}
+
+.form-error-label.password {
+    left: -3.9em;
+}
+
+section.login.h-100.gradient-form {
+    padding-top: 9em;
+}
+
+.login.btn:nth-child(1).ripple-surface {
+    width: 100%;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-padding-y: 0.5rem;
+    border: none;
+    border-radius: 3rem;
+    --bs-btn-border-radius: 1rem;
+    background: #007cff;
+    height: 2.5rem!important;
+}
+
+.login.btn.btn-primary.btn-block.gradient-custom-2.mb-3:hover {
+    background: #000000;
+}
+
+h1.mt-1.mb-5.pb-1 {
+    color: #007cff;
+    padding-bottom: .20rem !important;
+    margin-bottom: 1rem !important;
+}

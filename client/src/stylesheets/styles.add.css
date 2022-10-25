@@ -1,0 +1,67 @@
+
+div.mb-4:nth-child(1) {
+    display: flex;
+}
+
+.mb-6 {
+    width: 48%;
+}
+
+.left {
+    margin-right: 2%;
+}
+
+.right {
+    margin-left: 2%;
+}
+
+.card-body {
+    padding-top: 3rem!important;
+    padding-bottom: 0em!important;
+}
+
+section.h-100.gradient-form {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.form-error-label {
+    color: red;
+    background: white;
+    padding: 0em;
+    position: relative;
+    bottom: 4.59em;
+    left: -2.5em;
+    font-size: 0.8em;
+}
+
+.ad.btn.btn-primary.ripple-surface {
+    width: 100%;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-padding-y: 0.5rem;
+    border: none;
+    border-radius: 3rem;
+    --bs-btn-border-radius: 1rem;
+    height: 2.5rem!important;
+}
+
+.ad.btn.btn-primary.btn-block.gradient-custom-2.mb-3:hover {
+    background: #000000;
+}
+
+.section-title h2 a {
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+.add.col-lg-6.d-flex.align-items-center {
+    background: #010483;
+    width: 60%;
+    position: relative;
+    left: 8rem;
+}
+
+.add.container.py-5.h-100 {
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+}
