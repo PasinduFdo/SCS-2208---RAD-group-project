@@ -1,6 +1,5 @@
 const LocalStrategy = require('passport-local').Strategy;
-const user = require("../models/user");
-const dbconfig = require('./database');
+const user = require("../model/user");
 const bcrypt = require('bcrypt');
 
 module.exports = (passport) => {
@@ -8,7 +7,7 @@ module.exports = (passport) => {
     passport.use(new LocalStrategy( (username, password, done) => {
 
         //Match Username
-        user.findOne({email:username}, (err, userDetails) => {
+        user.findOne({username:username}, (err, userDetails) => {
             if (err) {
                 return done(err);
             }
@@ -37,12 +36,21 @@ module.exports = (passport) => {
     }));
 
     passport.serializeUser((user,done) => {
-        done(null, user.email)
+        console.log('serializeUser');
+        done(null, user)
     });
 
-    passport.deserializeUser((username,done) => {
-        user.findOne({email:username}, (err, userDetails) => {
-            done(err,userDetails);
+    passport.deserializeUser((req, user, done) => {
+        console.log('deserializeUser');
+        user.findById( user._id, async (err, userDetails) => {
+            if (err) {
+                done(err);
+            }
+            if (userDetails) {
+                done(null, userDetails);
+            } else {
+                done(null, false);
+            }
         });
     });
 }

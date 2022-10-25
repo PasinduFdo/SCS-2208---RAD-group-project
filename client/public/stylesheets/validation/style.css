@@ -1,0 +1,184 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.container.py-5.h-100 {
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+}
+
+.col-xl-10 {
+    width: 100%;
+}
+
+.col-lg-6 {
+    width: 40%;
+}
+
+.card {
+    --bs-card-border-width: 0px;
+    --bs-card-border-color: #fff;
+}
+
+.card-body {
+    padding-top: 8rem!important;
+}
+
+.upload-img {
+    padding-top: 5rem!important;
+}
+
+.mb-4 {
+    margin-bottom: 0rem!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    /* color: rgba(255, 255, 255, 0.8); */
+}
+
+input.form-control {
+    padding: 0.6rem 1.5rem;
+    border-radius: 1rem;
+}
+
+input.form-control::placeholder {
+    opacity: 0;
+}
+
+input.form-control:focus {
+    border-color: #1266f1;
+    outline: 0;
+    box-shadow: none;
+}
+
+input:focus ~ label.form-label,
+input:not(:placeholder-shown) ~ label.form-label{
+    bottom: 4.65em;
+    left: 1.5em;
+    background-color: white;
+    padding: 0 0.5em;
+    font-size: 0.8em;
+    opacity: 1;
+    color: #1266f1;
+}
+
+input:not(:focus) ~ label.form-label{
+    color: #ced4da;
+}
+
+input.red:focus {
+    border-color: #1266f1;
+    outline: 0;
+    box-shadow: none;
+}
+
+input:not(:focus) ~ label.red{
+    color: #ee0b0b;
+}
+
+label.form-label {
+    position: relative;
+    bottom: 2.2em;
+    left: 1.5em;
+    color: #ced4da;
+    pointer-events: none;
+    transition: 0.2s ease all;
+    margin: none;
+}
+
+button.btn:nth-child(1) {
+    width: 100%;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-padding-y: 0.5rem;
+    border: none;
+    border-radius: 3rem;
+    --bs-btn-border-radius: 1rem;
+    background: #007cff;
+}
+
+button.btn:hover:nth-child(1) {
+    background: #a9cbff;
+}
+
+button.btn:focus:nth-child(1) {
+    box-shadow: none;
+}
+
+.upload-img-btn {
+    margin-top: 1em;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: white;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: white;
+}
+
+a.btn.btn-outline-danger {
+    --bs-btn-color: #007cff;
+    --bs-btn-border-color: #007cff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #007cff;
+    --bs-btn-hover-border-color: #007cff;
+    --bs-btn-focus-shadow-rgb: none;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #007cff;
+    --bs-btn-active-border-color: #007cff;
+    --bs-btn-active-shadow: none;
+    --bs-btn-disabled-color: #007cff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #007cff;
+    --bs-gradient: none;
+    padding: 0.5rem 1rem;
+}
+
+
+img.logo {
+    width: 185px;
+}
+
+img.login {
+    width: 100vh;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+img.preview{
+    width: 70%;
+    height: auto;
+}
+
+.img-preview {
+    width: 50%;
+}
+
+section.h-100.gradient-form {
+    padding-bottom: 0;
+}
+
+    
+@media (max-width: 1200px) {
+    img.login {
+        display: none;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+    }
+}
