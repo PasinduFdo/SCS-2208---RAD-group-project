@@ -1,0 +1,43 @@
+
+.logo {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 16rem;
+}
+
+#navbar-logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 8rem;
+}
+
+#logout{
+  padding-right: 1.4rem;
+}
+
+.logo{
+  color: white
+}
+
+#desc{
+  padding-right: 6rem;
+  padding-top: 7rem;
+}
+
+#desc h1{
+  font-weight: 600;
+  font-style: italic;
+}
+
+#logoname{
+  font-weight: 800;
+}
+
+#header .logo img {
+     padding: 0;
+     margin: 0;
+     max-height: none;
+}
