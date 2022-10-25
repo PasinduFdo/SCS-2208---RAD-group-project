@@ -1,0 +1,134 @@
+/*body {*/
+/*    background: #fbfbfb;*/
+/*}*/
+
+button.accordion-button.collapsed, .accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+h1.ld {
+    margin: 0.5em 1em 0em;
+}
+
+a.nav-link.scrollto.logout {
+    cursor: pointer;
+}
+
+ol.breadcrumb {
+    position: relative;
+    top: 6.5em;
+    left: 2em;
+    cursor: pointer;
+    width: 20rem;
+}
+
+.ld.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 6rem 5rem;
+}
+
+.ld.col-sm-6 {
+    flex: 0 0 auto;
+    width: 30%;
+    margin-right: 1rem;
+}
+
+.ld.card {
+    margin-top: 2rem;
+    width: 25rem;
+    background-color: #eaecf1;
+}
+
+.ld.card-body {
+    padding-top: 2rem!important;
+    padding-bottom: 2em!important;
+    /* width: 73%; */
+}
+
+.ld.btn.btn-primary.profile {
+    width: 50%;
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-border-radius: 0.75rem;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    margin: 0em 0.5em;
+}
+
+.ld.btn.btn-primary.profile:hover {
+    background: #eaecf1;
+    color: #0d6efd;
+}
+
+.ld.btn.btn-primary.profile:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.ld.btn.btn-primary.delete-profile {
+    width: 38%;
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-border-radius: 0.75rem;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    margin: 0em 0.5em;
+    background-color: #f70606;
+    --bs-btn-border-color: #f70606;
+}
+
+.ld.btn.btn-primary.delete-profile:hover {
+    background: #eaecf1;
+    color: #f70606;
+}
+
+.ld.btn.btn-primary.delete-profile:focus {
+     outline: none;
+    box-shadow: none;
+}
+
+.ld.btn.btn-primary.ripple-surface {
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-border-radius: 0.75rem;
+    --bs-btn-border-width: 1px;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    margin: 0em 0.5em;
+    height: 2.375rem!important;
+}
+
+.ld.dropdown {
+    position: relative;
+    top: 3.5rem;
+    float: right;
+    width: 20rem;
+}
+
+.dropdown-toggle::after {
+    margin-left: 2.225rem;
+}
+
+.ld.btn.btn-primary.dropdown-toggle {
+    width: 62%;
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-border-radius: 0.75rem;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    margin: 0em 0.5em;
+}
+
+
+/*.ld.btn.btn-primary.dropdown-toggle:hover {*/
+/*    background: #eaecf1;*/
+/*    color: #0d6efd;*/
+/*}*/
+
+.ld.btn.btn-primary.dropdown-toggle:focus {
+    outline: none;
+    box-shadow: none;
+}
