@@ -32,16 +32,6 @@ let patientSchema = new mongoose.Schema({
     admittedDate: {
         type: Date,
         required: true
-    },
-    admittedHistory: {
-        date: {
-            type: Array,
-            required: false
-        },
-        description: {
-            type: Array,
-            required: false
-        }
     }
 })
 
